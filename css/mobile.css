@@ -6,8 +6,13 @@
     --color2: #ffffff;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 body{
     font-family: 'Raleway', sans-serif;
+    position: relative
 }
 
 /* #header {
@@ -61,7 +66,7 @@ body{
     font-weight: 500;
     font-size: 1.2em;
     text-align: center;
-
+    margin-bottom: 50px;
 }
 
 
@@ -69,12 +74,13 @@ body{
     background-color: #e342c8;
     width: fit-content;
     padding: 10px 30px 10px 30px;
-    margin: auto;
+    margin: 20px auto;
+    font-weight: 100 !important;
+    font-size: 1.5em !important;
 }
 #sticker-dl-btn {
     display: block;
-    margin: auto;
-    margin-top: 20px;
+    margin: 20px auto;
     width: fit-content;
     padding: 10px 30px 10px 30px;
     background-color: var(--color1);
@@ -84,4 +90,36 @@ body{
     font-size: 1.2em;
     font-weight: 500;
     text-align: center;
+}
+.smalltxt{
+    font-size: small;
+}
+#geld-zurück{
+    width: 60vw;
+    max-width: 200px;
+    position: relative;
+    /* bottom: 100px; */
+    animation: zoom 1.5s ease-in-out infinite;
+}
+/*  */
+@keyframes zoom {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.footer{
+    margin:auto;
+}
+
+.top-plane{
+    /* make this smaller */
+    height: 36rem !important;
+    bottom: 0 !important;
 }

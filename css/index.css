@@ -450,6 +450,7 @@ html > body #footer {
     margin: 20px auto;
     font-weight: 100 !important;
     font-size: 1.5em !important;
+	cursor: pointer;
 }
 #sticker-dl-btn {
     display: block;

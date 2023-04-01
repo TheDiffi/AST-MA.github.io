@@ -451,6 +451,11 @@ html > body #footer {
     font-weight: 100 !important;
     font-size: 1.5em !important;
 	cursor: pointer;
+	
+}
+
+.big-title:hover {
+	filter:brightness(0.8);
 }
 #sticker-dl-btn {
     display: block;

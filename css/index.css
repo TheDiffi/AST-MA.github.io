@@ -13,7 +13,6 @@ Released for free under the Creative Commons Attribution License
 
 body {
 	overflow-x: auto;
-	margin: 50px 0 0 0;
 	padding: 0;
 	background: #1c2c23;
 	font-size: 12px;
@@ -51,6 +50,9 @@ a:link {
 	color: #ffffff;
 }
 
+a{
+	text-decoration: none;
+}
 a:hover,
 a:active {
 	text-decoration: none;
@@ -401,7 +403,7 @@ html > body #footer {
 
 
 #banner {
-	background: rgba(0, 0, 0, 0.4);
+	
 	text-align: center;
 }
 #banner img {
@@ -500,10 +502,12 @@ html > body #footer {
 	width: 50%;
 }
 
-
-
-.top-plane{
-    /* make this smaller */
-    height: 36rem !important;
-    bottom: 0 !important;
+.hover-zoom{
+	transition: 0.1s ease-in-out;
 }
+.hover-zoom:hover{
+	transform: scale(1.1);
+	transition: 0.1s ease-in-out;
+	
+}
+

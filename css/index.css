@@ -442,6 +442,7 @@ html > body #footer {
     font-size: 1.2em;
     text-align: center !important;
     margin-bottom: 50px;
+	cursor: default !important;
 }
 
 
@@ -453,6 +454,17 @@ html > body #footer {
     font-weight: 100 !important;
     font-size: 1.5em !important;
 	cursor: pointer;
+	
+}
+
+.title{
+    background-color: #e342c8;
+    width: fit-content;
+    padding: 10px 30px 10px 30px;
+    margin: 20px auto;
+    font-weight: 100 !important;
+    font-size: 1.5em !important;
+	cursor: default !important;
 	
 }
 
